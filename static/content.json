@@ -1,0 +1,697 @@
+{
+    "interface": false,
+    "one": {
+        "start": {
+            "show": true,
+            "startBg": {
+                "image": {
+                    "show": true,
+                    "x": 0,
+                    "y": 0,
+                    "name": "image_1548128620449"
+                },
+                "sprite": {
+                    "show": false,
+                    "x": "100",
+                    "y": "100",
+                    "name": "",
+                    "loop": true,
+                    "scale": "3"
+                },
+                "animate": {
+                    "show": false,
+                    "x": "500",
+                    "y": "0",
+                    "scale": "1",
+                    "name": "",
+                    "loop": false
+                }
+            },
+            "startBtn": {
+                "image": {
+                    "show": true,
+                    "x": "783.0",
+                    "y": "705.7",
+                    "width": 320,
+                    "height": 150,
+                    "name": "image_1550734569380",
+                    "componentName": "startBtnImage",
+                    "ratio": 0,
+                    "lock": false,
+                    "lockImg": "image_lock_off"
+                },
+                "sprite": {
+                    "show": false,
+                    "x": 0,
+                    "y": 0,
+                    "name": "",
+                    "loop": true,
+                    "scale": 1,
+                    "componentName": "startBtnSprite"
+                },
+                "animate": {
+                    "show": false,
+                    "x": 0,
+                    "y": 0,
+                    "scale": 1,
+                    "name": "",
+                    "loop": false,
+                    "componentName": "startBtnAnimate"
+                }
+            }
+        },
+        "gameBgSound": {
+            "audio": "audio_1551407504211",
+            "animate_name": "animation_soundBgAn",
+            "x": "1837.2",
+            "y": "95.1",
+            "scale": 1,
+            "audioVolume": 0.5,
+            "loop": true,
+            "show": true,
+            "componentName": "gameBgSound"
+        },
+        "end": {
+            "jumpResultTime": "1000",
+            "endBg": {
+                "image": {
+                    "show": true,
+                    "x": 0,
+                    "y": 0,
+                    "width": 1920,
+                    "height": 1080,
+                    "name": "image_1554694020312"
+                },
+                "animate": {
+                    "show": false,
+                    "x": "",
+                    "y": "",
+                    "scale": "",
+                    "name": "",
+                    "loop": false
+                }
+            },
+            "goldText": {
+                "x": "960",
+                "y": "600",
+                "fontFamily": "FZCuYuan-M03S",
+                "fontSize": "80",
+                "color": "#FFFB00",
+                "strong": true,
+                "italic": false,
+                "fontWeight": "bold"
+            }
+        }
+    },
+    "photo": ["image_ph1"],
+    "sources": [{
+        "id": 0,
+        "bgImage": {
+            "image": {
+                "show": true,
+                "name": "image_1554183429606"
+            },
+            "sprite": {
+                "show": false,
+                "x": "",
+                "y": "",
+                "name": "",
+                "loop": false,
+                "scale": ""
+            },
+            "animate": {
+                "name": "",
+                "show": false,
+                "x": "",
+                "y": "",
+                "scale": "",
+                "loop": false
+            }
+        },
+        "subTitle": {
+            "audioShow": true,
+            "audio": "audio_1551062886457",
+            "audio_volume": 0,
+            "audio_loop": false,
+            "soundImg": {
+                "animate_name": "animation_soundAn",
+                "x": "657.9",
+                "y": "112.5",
+                "scale": 1,
+                "loop": false,
+                "componentName": "stemSound"
+            },
+            "stem": {
+                "show": true,
+                "text": "111111",
+                "width": "1000",
+                "x": "756.7",
+                "y": "67.6",
+                "lineHeight": "200",
+                "letterSpacing": "60",
+                "fontFamily": "Microsoft YaHei",
+                "fontSize": "60",
+                "color": "#16003D",
+                "textAlign": "left",
+                "strong": true,
+                "italic": false,
+                "componentName": "stemText"
+            },
+            "top": ""
+        },
+        "stemImg": {
+            "image": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0,
+                "show": false,
+                "name": "",
+                "componentName": "stemImage"
+            },
+            "sprite": {
+                "show": false,
+                "x": "",
+                "y": "",
+                "name": "",
+                "loop": false,
+                "scale": "",
+                "componentName": "stemSprite"
+            },
+            "animate": {
+                "name": "",
+                "show": false,
+                "x": "",
+                "y": "",
+                "scale": "",
+                "loop": false,
+                "componentName": "stemAnimate"
+            },
+            "show": false
+        },
+        "option": [{
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option0",
+                "x": 161,
+                "y": 670,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "4",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "13"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 160,
+                "main_y": 570
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option1",
+                "x": 287,
+                "y": 570,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 300,
+                "main_y": 480
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option2",
+                "x": 516,
+                "y": 628,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 516,
+                "main_y": 530
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option3",
+                "x": 681,
+                "y": 570,
+                "width": 225,
+                "height": 130,
+                "text_num": "42",
+                "right_key": "42",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "42"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 695,
+                "main_y": 470
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option4",
+                "x": 911,
+                "y": 626,
+                "width": 225,
+                "height": 130,
+                "text_num": "5",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 920,
+                "main_y": 520
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option5",
+                "x": 1080,
+                "y": 572,
+                "width": 225,
+                "height": 130,
+                "text_num": " ",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 1083,
+                "main_y": 470
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option6",
+                "x": 1315,
+                "y": 628,
+                "width": 225,
+                "height": 130,
+                "text_num": "7",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 1325,
+                "main_y": 530
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option7",
+                "x": 1461,
+                "y": 560,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 1467,
+                "main_y": 462
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option8",
+                "x": 1682,
+                "y": 628,
+                "width": 225,
+                "height": 130,
+                "text_num": "9",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 1690,
+                "main_y": 525
+            }
+        }],
+        "rightKey": ""
+    }, {
+        "id": 0,
+        "bgImage": {
+            "image": {
+                "show": true,
+                "name": "image_1554183429606"
+            },
+            "sprite": {
+                "show": false,
+                "x": "",
+                "y": "",
+                "name": "",
+                "loop": false,
+                "scale": ""
+            },
+            "animate": {
+                "name": "",
+                "show": false,
+                "x": "",
+                "y": "",
+                "scale": "",
+                "loop": false
+            }
+        },
+        "subTitle": {
+            "audioShow": true,
+            "audio": "audio_1551062886457",
+            "audio_volume": 0,
+            "audio_loop": false,
+            "soundImg": {
+                "animate_name": "animation_soundAn",
+                "x": "657.9",
+                "y": "112.5",
+                "scale": 1,
+                "loop": false,
+                "componentName": "stemSound"
+            },
+            "stem": {
+                "show": true,
+                "text": "111111",
+                "width": "1000",
+                "x": "756.7",
+                "y": "67.6",
+                "lineHeight": "200",
+                "letterSpacing": "60",
+                "fontFamily": "Microsoft YaHei",
+                "fontSize": "60",
+                "color": "#16003D",
+                "textAlign": "left",
+                "strong": true,
+                "italic": false,
+                "componentName": "stemText"
+            },
+            "top": ""
+        },
+        "stemImg": {
+            "image": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0,
+                "show": false,
+                "name": "",
+                "componentName": "stemImage"
+            },
+            "sprite": {
+                "show": false,
+                "x": "",
+                "y": "",
+                "name": "",
+                "loop": false,
+                "scale": "",
+                "componentName": "stemSprite"
+            },
+            "animate": {
+                "name": "",
+                "show": false,
+                "x": "",
+                "y": "",
+                "scale": "",
+                "loop": false,
+                "componentName": "stemAnimate"
+            },
+            "show": false
+        },
+        "option": [{
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option0",
+                "x": 161,
+                "y": 670,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "13",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "13"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 160,
+                "main_y": 570
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option1",
+                "x": 287,
+                "y": 570,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 300,
+                "main_y": 480
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option2",
+                "x": 516,
+                "y": 628,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 516,
+                "main_y": 530
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option3",
+                "x": 681,
+                "y": 570,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "42",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "42"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 695,
+                "main_y": 470
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option4",
+                "x": 911,
+                "y": 626,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 920,
+                "main_y": 520
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option5",
+                "x": 1080,
+                "y": 572,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 1083,
+                "main_y": 470
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option6",
+                "x": 1315,
+                "y": 628,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 1325,
+                "main_y": 530
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option7",
+                "x": 1461,
+                "y": 560,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 1467,
+                "main_y": 462
+            }
+        }, {
+            "image": {
+                "image_name": "image_render_hy",
+                "componentName": "option8",
+                "x": 1682,
+                "y": 628,
+                "width": 225,
+                "height": 130,
+                "text_num": "?",
+                "right_key": "3",
+                "choice": [{
+                    "key_name": "选项1",
+                    "key_num": "3"
+                }, {
+                    "key_name": "选项2",
+                    "key_num": "4"
+                }, {
+                    "key_name": "选项3",
+                    "key_num": "5"
+                }],
+                "main_x": 1690,
+                "main_y": 525
+            }
+        }],
+        "rightKey": ""
+    }],
+    "type": "new_template"
+}
